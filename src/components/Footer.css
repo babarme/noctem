@@ -1,0 +1,132 @@
+footer{
+    padding: 125px;
+    position: relative;
+    overflow: hidden;
+}
+footer>div{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.contact_text{
+    display: flex;
+    flex-direction: column;
+}
+.contact_text h6{
+    font-size: 30px;
+    margin-bottom: 27px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.contact_text p{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 27px;
+    
+}
+.footer_para{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.footer_para span{
+    font-size: 24px;
+}
+.cookie_popup{
+    position: relative;
+    z-index: 1;
+
+}
+.cookie_popup p{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 27px;
+}
+.cookie_popup p span i{
+    font-size: 15px;
+}
+footer hr{
+    width: 100%;
+    height: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 76px;
+    margin-bottom: 36px;
+}
+
+/* .cursor-pointer{
+    cursor: pointer;
+}
+@media  (max-width:768) {
+    footer{
+        padding:120px
+    }
+    .contact_text h6{
+        font-size: 3px;
+        margin-bottom: 27px;
+        line-height: 27px;
+        font-weight: 700;
+    }
+} */
+
+
+@media (max-width:480px){
+    .footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 1.8rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction:column ;
+        padding: 4px;
+        justify-content: flex-start;
+    }
+    footer img{
+        width:100px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .contact-text{
+        line-height: 1.8rem !important;
+        margin-top: 10px !important;
+    }
+    .cookie_popup{
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+
+        /* justify-content: space-between; */
+        /* margin-right: 1000px !important; */
+        
+    }
+    .cookie_popup p{
+        font-size: 16px;
+        font-weight: 200px;
+        float: left;
+        
+    }
+    .footer_para{
+        width: 88%;
+        display: flex;
+        flex-direction: row ;
+        
+    }
+    .cookie-1{
+        
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 100px !important;
+        margin-left:0 ;
+        height: auto;
+        
+    }
+    .cookie-1 p{
+        font-size: 12px;
+    }
+
+}

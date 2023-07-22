@@ -1,0 +1,109 @@
+{
+    "services":"Services",
+    "employment":"Employment",
+    "investor":"Investor",
+    "contactUs":"Contact Us",
+
+    "noctem": "Noctem is",
+    "loading":"Loading...",
+    "growing":"Growing...",
+    "evolving":"Evolving...",
+    "noctem2": "And we are just getting started.",
+    "afterScrambleText":"Noctem is Growing...",
+
+    "commitment": "Commitment to",
+    "commitment01":"disrupting the",
+    "commitment02":"status quo.",
+    "commitmentText": "With every major technological advancement brings a period of disruption. Disruption has the ability to create radical change. Change is inevitable, yet many fear it. We want to help you embrace change. For without change, the impossible is not possible.",
+    "commitmentText01":"Here at Noctem Corp, we strive to make the “impossible” a reality.",
+    "commitmentText2": "Beginning with our developer tools, we are paving the way for companies wanting to empower their engineers to complete projects in record time and to assist pioneer minded developers to concentrate on creating and bring their imaginative ideas to fruition faster. Our consulting, contracting & manual testing services provide much needed insight to assist companies in a reduction of inefficiencies and overhead. These services are a result of seeing firsthand, engineering teams and quickly identifying key issues that are leading companies to severe losses in many areas that can be avoided with clear steps.",
+
+    "service_head":"Services:",
+
+    "developer_tool":"Developer Tools",
+    "developer_tool01":"& Subscriptions",
+    "developer_subHead" :"C# Experts specializing in tools",
+    "developer_subHead01":"for C# developers",
+
+    "Project_evolv":"Project Evolv",
+    "Proj_evol_subHead" :"Our C# essential tool kit",
+    "features":"Features:",
+
+    "new":"NEW",
+    "proj_2": "Project Evolv 2.0",
+    "version":"VERSION 2.0 & VERSION 3.0",
+    "more_than":"More than Cross Platform",
+    "project_v2": "Project Evolv Version 1.0",
+    "free":"Free to Students",
+    "visit_btn":"visit Project Evolv",
+    "proj_v3":"Project Evolv Version 3.0",
+    "to_be":"To be showcased at Transcend 2023 - 2024",
+
+    "contract":"Contract & Consulting",
+    "contract_desc":"We are currently available for various contract and/or consulting work.  Lets discuss your project whether its various consulting services, creation of your idea or manual testing of your particular project. ",
+    "connect_btn" :"Let’s get connected",
+
+    "events_head":"Workshops & Events",
+    "workshop": "Workshops:",
+    "w_desc": "Quarterly online workshops for subscribers.",
+    "event": "Events:",
+    "e-year":"Transcend 2023 - 2024",
+    "e_desc":"Our First Annual Project Evolv conference",
+    "full_detail":"Full details to follow soon",
+
+    
+    "employ" :"Employment",
+    "apply_btn":"Click to Apply",
+    "employ_head1":"Senior C# web engineer/s",
+    "qualifications1":"Qualifications:",
+    "quali_desc1": "Depth in C# Microsoft .NET 4.x experience ASP.NET MVC and WebAPI Patterns & Practices relevant to high-quality software design & architecture Strong Full Stack .NET Developers. Less the years of experience, as it is the whole package. Depends on background and experience",
+    "jobType1": "Job Type:",
+    "jobDesc1":"Fulltime, Remote",
+    "salary1":"Salary:",
+    "salDesc1":"$105 - 180K/yr",
+
+    "employ_head2":"Junior C# software engineer/s",
+    "qualifications2":"Minimum Qualifications:",
+    "quali_desc2": " 1+ years C#  (Required) ,1+ years total software development, Bachelor's (Preferred)",
+    "madit":"Mandatory Skills :",
+    "madit01":"Visual Studio, C#, .NET, ASP.NET, Microsoft SQL Server",
+    "preff":"Preferred Skills :",
+    "preff01":"Entity Framework, Angular, Team Foundation Server/Git, JIRA, Unit Testing",
+    "jobType2": "Job Type:",
+    "jobDesc2":"Fulltime, Remote",
+    "salary2":"Salary:",
+    "salDesc2":"$35 -70K/yr",
+
+    "employ_head3":"Technical Evangelist",
+    "quali_desc3": "This role requires an individual who has great technical knowledge: Effective communication skills, Ability to describe details on technical issues in all their complexity when needed. Ability to persuade, inform and/or teach audiences. Creative with coming up with material, ideas to increase audience. Extensive knowledge in software development Bachelor's (Preferred). Less the years of experience, as it is the whole package.",
+    "jobType3": "Job Type:",
+    "jobDesc3":"Fulltime, Remote",
+    "salary3":"Salary:",
+    "salDesc3":"negotiable",
+
+
+    "invest":"Investors",
+    "recevie_d": "Receive Full Details",
+    "name": "Name",
+    "phone":"Phone",
+    "email":"Email",
+    "msg":"Message",
+    "submit_btn":"Submit",
+
+    "contact_us": "Contact Us:",
+    "privacy":"Noctem Computing, LLC 2019.  All rights reserved.",
+    "privacy01":"Terms of Use l",
+    "privacy02":" Privacy Policy",
+    "why_cookie":"Why we use cookies",
+
+
+
+
+
+    "listItem1":"Navigation",
+    "listItem2":"Dialog",
+    "listItem3":"Themes, Icon, Controls",
+    "listItem4":"Search",
+    "listItem5":"Settings",
+    "listItem6":"Help"
+}

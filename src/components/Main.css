@@ -1,0 +1,925 @@
+*{
+    overflow-x: hidden;
+}
+
+
+
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+#commitment-line{
+    margin: 100px 0;
+    padding: 16px 50px;
+    width: 100vw;
+    margin-bottom: 2px;
+    margin-top: 320px;
+    /* position: relative; */
+}
+#main-section{
+    background-color: #000000;
+    z-index: 10;
+    /* position: relative; */
+}
+.commitmentkero{
+    font-size: 12px;
+}
+.hide-main-section{
+    display: none;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.z-2{
+    z-index: 2;
+}
+.bg-black{
+    background-color: #000;
+}
+.animate-slide-up{
+    transition: 1.6s linear;
+    animation: slidein 1.6s ;
+    -webkit-transition: 1.6s linear;
+    -moz-transition: 1.6s linear;
+    -o-transition: 1.6s linear;
+    -webkit-animation: slidein 1.6s ;
+    -moz-animation: slidein 1.6s ;
+    -o-animation: slidein 1.6s ;
+    animation-fill-mode: forwards;
+}
+.video-init{
+    transform: translate(0, 20em);
+    -webkit-transform: translate(0s, 20em);
+}
+.slidein {
+    -webkit-animation-delay: 15s; /* Safari 4.0 - 8.0 */
+    -moz-animation-delay: 15s;
+    animation-delay: 15s;
+  }
+  
+  @-moz-keyframes slidein {
+    from {
+        -moz-transform:  translate(0s, 20em);
+    }
+    to {
+        -moz-transform: translate(0em, 0);
+    }
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+        -webkit-transform: translate(0s, 20em);
+    }
+    to {
+        -webkit-transform: translate(0em, 0);
+    }
+  }
+  
+  @keyframes slidein {
+    from {
+        transform: translate(0, 20em);
+    }
+    to {
+        transform: translate(0em, 0);
+    }
+  }
+.commitment_flex{
+
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.commitment_flex .commit_half{
+    position: relative;
+    text-align: left;
+    /* font-size: 1px; */
+}
+.commit_half h2{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    overflow-y: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+#commitment-heading{
+    display: inline;
+}
+#commitment-heading img{
+    background: transparent;
+    bottom: -29px;
+    height: 110px;
+    left: 75%;
+    position: absolute;
+    width: 135px;
+    z-index: 0;
+}
+.commit_half p{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 100%;
+}
+.commitment_flex .commit_full{
+    flex-basis: 100%;
+    margin-top: 44px;
+    z-index: 10;
+}
+.commit_full p{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
+    /* letter-spacing: 0.5px; */
+    margin-right: 15%;
+    width: 100%;
+}
+.service{
+    position: relative;
+    padding-top: 100px;
+}
+#services-container{
+    background: #080808;
+    padding: 0 64px;
+}
+#services-container h2{
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: .6px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services_flex_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 206px;
+    width: 100%;
+}
+.services_flex_1 img{
+    border-radius: 2px;
+    width: 32%;
+    box-shadow: 0 8px 24px hsla(0,0%,6%,.5);
+}
+.service_flex_2, .project_evolv_section, .project_eveolv_2, .workshop_flex{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project_eveolv_2{
+    padding-bottom: 113px;
+    position: relative;
+    /* height: 864px; */
+}
+.video2{
+    height: 40rem;
+    background-color: white;
+}
+/* .service_flex_2 img{
+    height: 45rem;
+    width: 30%;
+} */
+.service_flex_2 img, .service_flex_2>div{
+    flex-basis: 50%;
+}
+.devTools_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 48px;
+}
+.devTools_text h3{
+    font-size: 45px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+.devTools_text p{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.project_evolv_section{
+    height: 864px;
+    position: relative;
+}
+.project_evolv_section>div{
+    flex-basis: 50%;
+}
+.project_evolv_left h3{
+    font-size: 65px;
+    line-height: 107px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.project_evolv_left>div{
+    padding-left: 64px;
+}
+.project_evolv_left h3, .project_evolv_left p, .project_evolv_left ul{
+    margin-bottom: 16px;
+}
+.project_evolv_left p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.toolkitlist{
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    list-style: none;
+}
+.toolkitlist li{
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 400;
+    /* line-height: 60px; */
+}
+.para{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.project_evolv2_right{
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 64px;
+    text-align: left;
+}
+.project_evolv2_right, .project_evolv2_left{
+    flex-basis: 50%;
+}
+.project_evolv2_right>div{
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+.visit_btn, .consulting_btn, .apply_btn,.submit_btn{
+    border-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    font-size: 14px;
+    margin-top: 0;
+    padding: 14px 28px;
+    text-transform: uppercase;
+}
+.btn-gradient{
+    background: radial-gradient(105.91% 1596.33% at 2.27% 10%,rgba(0,56,255,.7) 0,rgba(203,0,221,.5) 100%);
+    margin-bottom: 26px;
+}
+.contract_bg{
+    text-align: center;
+}
+#contract-n-consult{
+    background: url(../img/paperwork.png);
+    background-size: cover;
+    height: 850px;
+    position: relative;
+    width: 100vw;
+}
+#contract-n-consult>div{
+    align-items: center;
+    background: radial-gradient(100% 400% at 100% 0,#072aa6 0,rgba(163,4,166,.19) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+#contract-n-consult h3{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#contract-n-consult p{
+    font-size: 28px;
+    /* line-height: 1.6px; */
+    margin-bottom: 30px;
+    text-align: center;
+    width: 52%;
+    font-weight: 400;
+}
+.consulting_btn{
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 1rem 3rem;
+}
+.workshop_events{
+    padding: 6px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* height: 200px; */
+}
+.workshop_events h3{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    overflow-y: hidden;
+}
+.workshop_flex{
+    background: rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(0,0,0,.35);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    /* height: 400px; */
+}
+.workshop_flex>div{
+    flex-basis: 40%;
+}
+.workshop_img{
+    /* position: relative; */
+    left: 10px;
+    height: 25rem;
+    overflow-y: hidden;
+    margin-left: 12px;
+  
+}
+.workshop_img img{
+    width: 70%;
+    height:30rem;
+    width: 30rem;
+}
+/* .workshop_img::before{
+    background: radial-gradient(141.11% 562% at 125.29% -25.23%,#072aa6 0,rgba(163,4,166,.19) 100%);
+    content: "";
+    height: 864px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+} */
+.workshop_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow-y: hidden;
+    /* justify-content: flex-start; */
+    /* margin-right: 1px; */
+    /* margin-left: 10px; */
+}
+.workshop_details>div{
+    margin-bottom: 6px;   
+    overflow-y: hidden; 
+}
+.workshop_details h4{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    /* height: 30rem; */
+}
+.workshop_details p{
+    font-size: 18px;
+    margin-bottom: 4px;
+    transform: scale(1, 1.4);
+    font-weight: 900;
+    letter-spacing: 0.9px;
+    line-height: 30px;
+}
+.workshop_details .follow_text{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-top: 93px;
+}
+.employment{
+    padding: 100px 6rem 161px 4rem ;
+    margin-top: 112px;
+    position: relative;
+}
+.employment h2{
+    font-size: 65px;
+    margin-bottom: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.employment_flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between; 
+    overflow: hidden;
+}
+.employment_card{
+    background: #171717;
+    border-radius: 5px;
+    padding: 34px 18px;
+    width: 32%;
+    /* width: 492px; */
+    height: 950px;
+    margin-right: 2%;
+    z-index: 10;
+    position: relative;
+    flex-shrink: 0;
+    transition: all 0.5s ease;
+}
+.employment_card h4{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.employment_card>div{
+    margin: 25px 0;
+}
+
+
+.qualification_text p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: .4px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.qualification_details span, .job_type span, .salary span{
+    font-weight: 700;
+    margin-right: 8px;
+    font-size: 26px;
+}
+
+.job_type, .salary{
+    font-weight: 900;
+    letter-spacing: .4px;
+    font-size: 24px;
+}
+.empc-0 .apply_btn, .empc-1 .apply_btn{
+    margin-top: 50px;
+}
+.apply_btn{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 24px 38px;
+    position: absolute;
+    bottom: 20px;
+    margin-top: 20px;
+}
+.visit_btn{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+#investor{
+    background: #fffdea;
+}
+.investors{
+    color: #121212;
+    font-size: 18px;
+    letter-spacing: .2px;
+    line-height: 1.2;
+    padding: 75px 64px;
+    text-align: center;
+}
+.investors h2{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 93px;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+}
+.investors p{
+    font-size: 40px;
+    transform: scale(0.8, 1);
+    font-weight: 900;
+    line-height: 55px;
+}
+.contact_form{
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    justify-content: space-between;
+    margin: 40px auto 0;
+    width: 70%;
+}
+.contact_form input[type=text]{
+    width: 45%;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+.contact_form input, .contact_form textarea{
+    background: #fffdea;
+    border: 1px solid #121212;
+    border-radius: 2px;
+    outline: none;
+    padding: 16px;
+}
+.contact_form input[type=email], .contact_form textarea{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 900;
+    color: black;
+    font-family: "Helvetica", sans-serif!important;
+}
+.submit_btn{
+    background: radial-gradient(105.91% 1596.33% at 2.27% 10%,rgba(0,56,255,.7) 0,rgba(203,0,221,.5) 100%);
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 34px;
+    padding: 14px 68px;
+    font-size: 26px;
+}
+.slide_arrow{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 0px;
+    width: 96%;
+}
+.slide_arrow span{
+    margin: 0 8px;
+}
+.slide_arrow span i{
+    font-size: 20px;
+}
+.video1{
+    height: 40rem;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* @media only screen and (max-width:1678px) {
+    
+    .employment_card h4{
+        font-size: 28px;
+    }
+    .qualification_details span,
+    .job_type span,
+    .salary span{
+        font-size: 22px;
+    }
+    .qualification_text p,
+    .job_type, .salary{
+        font-size: 20px;
+    }
+    .employment_card{
+        width: 413px;
+    }
+}
+@media only screen and (max-width:1441px){
+    .employment_card{
+        width: 389px;
+    }
+    .employment{
+        padding: 100px 1rem 161px 1rem;
+
+    }
+}
+@media only screen and (max-width:1241px){
+    
+} */
+@media(max-width:770){
+    .main{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        scroll-behavior: unset;
+        
+    }
+    #employement{
+        display: flex;
+        flex-direction: column;
+    }
+    #commitment-line{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-bottom:0;
+       
+    }
+    .commit_half h2{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 10px;
+        position: relative;
+        
+    }
+    
+    .service_flex_2{
+        align-items: center;
+        /* text-align: center; */
+        height: auto!important;
+        /* max-width: none !important ; */
+        text-align: center;
+    }
+    .employment_card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 12px;
+        line-height: 1.8rem !important;
+        text-align: center;
+    }
+    .devTools_text{
+        padding: 0;
+        margin-right: 100px;
+    }
+.workshop_events {
+    margin-top: 10px !important;
+}
+
+}
+@media(max-width:480px){
+    .main{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .commit_half h2{
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+        line-height: 1.2;
+        /* height: 10px; */
+    }
+    .commit_half p{
+        font-size: 20px;
+    }
+    .commitment_flex .commit_full{
+        margin-top: 0;
+    }
+    .commit_full p{
+        font-size: 20px;
+    }
+    #services-container h2{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+
+    }
+    .services_flex_1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 2px;
+        /* width: 50rem; */
+        justify-content: left;
+      
+    }
+    .services_flex_1 img{
+        height: 25rem;
+        margin-bottom: 15px;
+        width: 18rem;
+    }
+    .service_flex_2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center ;
+        flex-direction: column;
+        width: 40rem;
+        /* justify-content: left; */
+        margin-bottom: 15px;
+        margin-left: 40px;
+    
+    }
+
+    .service_flex_2 img{
+        padding: 0px;
+        margin-bottom: 15px;
+        width: 17rem;
+        margin-left: -320px;
+    }
+    .devTools_text {
+        padding: 0px;
+        margin-bottom: 15px;
+        width: 18rem;
+        margin-left: -300px;
+
+    }
+    .devTools_text h3{
+        font-size: 24px;
+        line-height: 1.2;
+        margin-left: 12px;
+        
+    }
+    .devTools_text p{
+        margin-left: 12px;
+    }
+    .list h3{
+        font-size: 20px;
+        line-height: 1.0rem;
+        display: flex;
+        flex-direction: row;
+        /* width: 100%; */
+        padding: 4px;
+        margin-top: 10px !important;
+        /* margin-right: 14px; */
+
+    }
+    .list p{
+        font-size: 16px;
+    }
+    .feature{
+        font-size: 20px !important;
+        margin-top: 2px;
+    }
+/* 
+    .toolkitlist li{
+        font-size: 20px;
+        line-height: 2.4;
+    } */
+    .project_evolv_right video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 18rem;
+        justify-content: center;
+        margin-bottom: 15px;
+        height: 20rem;
+        margin-left: 15px;
+        
+    }
+    .project_evolv2_left video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 18rem;
+        justify-content: center;
+        margin-bottom: 15px;
+        height: 20rem;
+        margin-left: 15px;
+        
+    }
+    .contract_bg{
+        width: 100%;
+        display: flex;
+        /* height: 35rem !important; */
+        background: none;
+    }
+    .contract_bg h3{
+        /* font-size: 2px; */
+        /* color: red; */
+        font-size: 20px !important;
+    }
+    .contract_bg p{
+        font-size: 16px !important;
+    }
+    .workshop_events{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        line-height: 2.8rem !important;
+    }
+    .workshop_events h3{
+        font-size: 20px;
+        margin-top: 12px;
+        height: auto;
+        
+    }
+    .workshop_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+
+    }
+    .workshop_img{
+        /* height: 24rem; */
+        /* width: 90%; */
+        /* left: 0px; */
+        height: 24rem;
+        object-fit: cover;
+        
+    } 
+    .workshop_details{
+        display: flex;
+        flex-direction: column;
+        /* line-height: 1.2rem; */
+        padding: 0;
+        margin-top: 12px;
+        margin-right: 50px;
+
+    }
+    .workshop_details h4{
+        font-size: 16px;
+        /* line-height: 1.2; */
+    }
+    .workshop_details p{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .follow_text{
+        font-size: 12px !important;
+        margin-right: 12px;
+        /* margin-top: -12px !important; */
+    }
+    .employment{
+        display: flex;
+        flex-direction: column;
+    }
+    .employment h2{
+        font-size: 20px;
+    }
+    .employment_flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .employment_card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 12px;
+        line-height: 1.8rem !important;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    .employment_card h4{
+        font-size: 20px;
+        overflow-y: hidden;
+    }
+    .employment_card p{
+        font-size: 12px;
+    }
+    .job_type{
+        display: flex;
+        flex-direction: column;
+        /* padding: 5px; */
+        gap: 10px ;
+        line-height: 1.8rem;
+        height: auto;
+        overflow-y: hidden !important;
+    }
+    .investors{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.8rem !important;
+        padding: 4px;
+    }
+    .investors h2{
+        font-size: 24px;
+    }
+    .investors p{
+        font-size: 18px;
+        
+    }
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_form input{
+        width:100% !important;
+    }
+    .project_evolv_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        line-height: 1.9rem !important;
+        overflow-y: hidden;
+    }
+    .project_eveolv_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .project_evolv2_right{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        line-height: 2.8rem !important;
+    }
+
+
+}
+ 
+
+
